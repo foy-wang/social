@@ -1,5 +1,15 @@
 {
-    "gitbook": "3.x.x",
+    "title": "人间笔记",
+    "description": "人间万象，总有一些如鲠在喉，不吐不快。",
+    "author": "王腾君",
+    "language": "zh-hans",
+    "root": ".",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    
+    "gitbook": "3.2.3",
+    
     "plugins": [  
     	"-search",
         "search-pro",
@@ -11,6 +21,7 @@
         "donate",
         "expandable-chapters",
         "emphasize",
+        "mermaid-gb3",
         "github" 
     ],
     "pluginsConfig": {
@@ -79,13 +90,6 @@
             "top": 53,
             "bottom": 53
         }
-    },
-    "title": "黑色脑洞集",
-    "description": "脑洞大开的故事集，有一些黑色思维在里头",
-    "author": "王腾君",
-    "language": "zh-hans",
-    "root": ".",
-    "structure": {
-        "readme": "introduction.md"
     }
+ 
 }
